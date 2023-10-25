@@ -1,0 +1,13 @@
+{
+    "sqltools.connections": [
+        {
+            "name": "BigQuery",
+            "authenticator": "CLI",
+            "location": "eu",
+            "previewLimit": 50,
+            "driver": "BigQuery",
+            "projectId": "aec-students"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}

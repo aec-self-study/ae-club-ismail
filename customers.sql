@@ -1,3 +1,10 @@
+{{
+    config(
+        materialized:'table'
+    )
+
+}}
+
 SELECT 
 customers.id as customer_id,
 customers.name as name,
