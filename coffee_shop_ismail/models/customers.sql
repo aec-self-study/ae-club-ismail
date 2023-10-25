@@ -1,3 +1,10 @@
+{{
+    config(
+        materialized='table'
+    )
+
+}}
+
 SELECT 
 customers.id as customer_id,
 customers.name as name,
@@ -11,4 +18,4 @@ GROUP BY
 customer_id,
 name,
 email
-ORDER BY first_order_at LIMIT 5
+ORDER BY first_order_at
