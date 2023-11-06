@@ -1,5 +1,6 @@
 {
     "recommendations": [
-        "evidence.sqltools-bigquery-driver"
+        "evidence.sqltools-bigquery-driver",
+        "bstruct.vscode-bigquery"
     ]
 }
